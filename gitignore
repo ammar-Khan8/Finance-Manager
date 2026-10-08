@@ -1,0 +1,5 @@
+out/
+data/*.csv
+data/*.log
+sources.txt
+test_sources.txt

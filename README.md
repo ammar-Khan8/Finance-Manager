@@ -130,6 +130,6 @@ The runner exits with a non-zero status if any test fails, so it works in CI. Te
 - Recurring transactions (e.g., monthly rent auto-logged)
 - REST API layer on top of the service classes
 
-## License
 
-Created as a course submission for an OOP/Java "Build Your Own Project" assignment. Add a license before publishing publicly.
+
+

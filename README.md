@@ -63,6 +63,8 @@ No other dependencies are needed.
 
 ## Build and Run
 
+### CLI version
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/<your-username>/<your-repo-name>.git
@@ -78,6 +80,17 @@ java -cp out com.pfbm.Main
 ```
 
 On first run, choose **2) Register** to create an account. After that, use **1) Login**. Data is saved under `data/` and persists between runs.
+
+### Browser version
+
+A lightweight browser UI is included in the project root and can be served locally:
+
+```bash
+cd <your-repo-name>
+py -m http.server 8000
+```
+
+Then open `http://localhost:8000` in a browser. The browser version stores data in the browser using local storage, so it works without a database or backend.
 
 ## Quick Walkthrough
 
@@ -129,7 +142,4 @@ The runner exits with a non-zero status if any test fails, so it works in CI. Te
 - Export monthly reports to CSV or PDF
 - Recurring transactions (e.g., monthly rent auto-logged)
 - REST API layer on top of the service classes
-
-
-
 
